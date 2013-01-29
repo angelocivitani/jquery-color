@@ -1,21 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<html>
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>jQuery-Color Test Suite</title>
-	<link rel="Stylesheet" media="screen" href="qunit/qunit/qunit.css" />
-	<script src="data/testinit.js"></script>
-	<script src="jquery.js"></script>
-	<script src="../jquery.color.js"></script>
-	<script src="qunit/qunit/qunit.js"></script>
-	<script src="unit/color.js"></script>
-	<script src="data/swarminject.js"></script>
+    <meta charset="utf-8">
+        <title>quiz</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script> 
+	<!--<script src="http://code.jquery.com/jquery-1.9.0.min.js"></script>
+	<script src="http://code.jquery.com/jquery-migrate-1.0.0.min.js"></script>-->
+	<!--<script src="http://plugins.jquery.com/project/color"></script>   -->
+<script type="text/javascript">
+function tristezza()
+{
+$('#p1').css('background','gray');
+}
 </head>
-<body id="body">
-	<h1 id="qunit-header">jQuery-Color Test Suite</h1>
-	<h2 id="qunit-banner"></h2>
-	<div id="qunit-testrunner-toolbar"></div>
-	<h2 id="qunit-userAgent"></h2>
-	<ol id="qunit-tests"></ol>
+<body>
+<p> Primo paragrafo </p>
+<p> Secondo paragrafo </p>
+<p> Terzo paragrafo </p>
+<p> Come ti senti oggi? <br/>
+<input onclick="tristezza();" type="button" value="triste">
+<input type="button" value="felice">
+</p>
+
+
+
 </body>
 </html>
